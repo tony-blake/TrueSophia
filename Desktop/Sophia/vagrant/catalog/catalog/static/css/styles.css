@@ -1,0 +1,164 @@
+html {
+    color: rgba(66,66,66,.87);
+}
+
+html, body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+textarea {
+    font-family: "Helvetica","Arial", sans-serif;
+}
+
+/* Make the title look like normal text while clickable. */
+.mdl-layout-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Don't let the content get too wide on large screens. */
+.mdl-grid {
+	max-width: 800px;
+}
+
+.mdl-card__media {
+	margin: 0;
+}
+
+.mdl-card__media > img {
+	max-width: 100%;
+}
+
+.mdl-card__supporting-text {
+    font-size: 15px;
+    color: rgba(0,0,0,.65);
+}
+
+/* Height of paper preview cards on homepage and category pages. */
+.sophia-card_latest {
+    height: 255px;
+}
+
+.sophia-card_item {
+    background-color: #fff;
+
+}
+
+/* For a full paper card, display all of the image, but don't let it
+get too big that it takes over the screen. */
+.sophia-card_item img {
+        max-height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+/* For small paper cards, display a cover of the image.
+This means that whatever the image ratio is, the card will
+always be the same size. */
+.sophia-card_image {
+    height: 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+
+/* Center text saying there is no image */
+.sophia-card_no_image {
+    text-align: center;
+    color: white;
+    line-height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+/* Style card for Google login card */
+.sophia-card-login-g > .mdl-card__title {
+    background: #EF5350;
+
+}
+
+/* Style card for Facebook login card*/
+.sophia-card-login-fb > .mdl-card__title {
+    background: #0D47A1;
+
+}
+
+.sophia-card-login > .mdl-card__title {
+    align-items: flex-start;
+    color: #fff;
+}
+
+.sophia-card-login > .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+
+/* Add paper button fixed in bottom-left of the screen. */
+.sophia-add-animal_button {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+}
+
+/* Flash feedback message styling */
+.flash_msg {
+    color: #fff;
+    background-color: #536DFE;
+}
+
+/* Put a bit of space between action button and the cancel button. */
+.sophia-cancel-button {
+    margin-left: 15px;
+}
+
+.sophia-form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+/* On edit page, display current image */
+.sophia-edit-image {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sophia-edit-image img {
+    max-width: 100%;
+}
+
+/* Set text to white on a red background. */
+.sophia-delete-button {
+    color: rgba(255, 255, 255, 0.97);
+}
+
+.sophia-login-logout-button {
+    margin-left: 10px;
+}
+
+/* Make profile picture round */
+.sophia-profile-picture {
+    border-radius: 50%;
+}
+
+/* Adjust drawer layout slightly */
+.mdl-layout__drawer > .mdl-layout-title {
+    line-height: 40px;
+}
+
+.mdl-layout__drawer .mdl-navigation {
+    padding-top: 2px;
+    padding-bottom: 16px;
+}
