@@ -1,4 +1,4 @@
-Udacity Fullstack ND Project 3, Catalog App
+TrueSophia
 ===========================================
 
 Description
