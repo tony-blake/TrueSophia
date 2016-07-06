@@ -4,7 +4,7 @@ TrueSophia
 Description
 -----------
 
-**Sophia** is a website that stores scientific journal articles and scientific papers. It has several categories of subjects (Physics, Maths, etc). The user can log in with their Google or Facebook account and add their favourite scientific papers to the various categories. Users can also download previously added papers by right clicking on the pdf image of the scientific paper.
+**TrueSophia** is a website that stores scientific journal articles and scientific papers. It has several categories of subjects (Physics, Maths, etc). The user can log in with their Google or Facebook account and add their favourite scientific papers to the various categories. Users can also download previously added papers by right clicking on the pdf image of the scientific paper.
 
 ## Required Libraries and Dependencies
 The project code requires the following software:
