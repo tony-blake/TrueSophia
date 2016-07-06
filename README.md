@@ -165,4 +165,4 @@ If it does not match or is missing, no change to the database will be made.
 
 ### References
 I modeled the layout of my "Journal App" on the "Zoo Management App" by Steven Wooding
-https://github.com/SteveWooding/fullstack-nanodegree-vm/tree/master/vagrant/catalog.
+https://github.com/SteveWooding/fullstack-nanodegree-vm/tree/master/vagrant/catalog. 
