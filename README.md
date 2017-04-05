@@ -1,13 +1,6 @@
 TrueSophia
 ===========================================
 
-
-## You need to change the PYTHONPATH on 
-## your mac from ```/Users/tonyblake/amber16/lib/python2.7/site-packages``` 
-## to ``` /Library/Python/2.7/site-packages ```
-
-
-
 Description
 -----------
 
